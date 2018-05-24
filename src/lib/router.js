@@ -19,9 +19,8 @@ router.route = (req, res) => {
   
   return parser(req)
     .then( req => {
-      console.log(req.url.pathname);
       let handler = router.routes[req.method][req.url.pathname];
-      console.log(handler);
+      console.log(handler(req, res));
       if (handler) {
         return handler(req, res);
       }
