@@ -1,6 +1,10 @@
 ![cf](https://i.imgur.com/7v5ASc8.png) Lab 08: Vanilla REST API
 ======
 
+## Overview
+
+This is a basic HTTP server that can register routes and serve up requests. It allows the user to easily create request routes and register them so that they can be used to deliver data. Dependencies include ```eslint```, ```jest```, and ```dotenv```.
+
 ## Submission Instructions
   * fork this repository & create a new branch for your work
   * write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
